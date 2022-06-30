@@ -7,9 +7,9 @@ import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <UserProvider>
+    {/* <UserProvider>
       <Login />
-    </UserProvider>
+    </UserProvider> */}
     <CartProvider>
       <ProductsProvider>
         <App />
